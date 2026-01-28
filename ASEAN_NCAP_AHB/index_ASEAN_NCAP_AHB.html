@@ -24,8 +24,8 @@
             color: #2c3e50;
         }
 
-       /* Styling for the Navbar */
-       #navbar {
+        /* Styling for the Navbar */
+        #navbar {
             position: fixed;       /* Keep the navbar fixed at the top */
             top: 0;                /* Set the navbar at the top of the page */
             left: 0;               /* Align it to the left edge */
@@ -53,6 +53,7 @@
             background-color: #333;
             color: black;
         }
+
 
         /* Logo styling */
         #logo {
@@ -93,69 +94,82 @@
 
     <!-- Navbar -->
     <div id="navbar">
-        <a href="index_Main_Page.html" style="font-weight: bold;">Main Page</a>
-        <img id="logo" src="logo.png"; >
+        <a href="../index_Main_Page.html" style="font-weight: bold;">Main Page</a>
+        <img id="logo" src="../logo.png"; >
     </div>
 
     <!-- Content -->
     <div id="content">
         <br><br><br>
-        <h1>Reporting Tool</h1>
+        <h1>ASEAN NCAP Auto High Beam (AHB) report</h1>
         <hr style="border: 1px solid #2c3e50; margin-top: 20px; margin-bottom: 20px;"> <!-- Simple line with custom style -->
+        
+        <p>Click on the link to visualize the ASEAN NCAP AHB report in PDF version:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th><a href="https://clientportal.idiada.com/share/5072dbae-6b79-494e-b9eb-9b1c168b6942">ASEAN NCAP AHB report (PDF)</a></th>
+                </tr>
+            </thead>
+        </table>
+
+        <p>Click on the links in the table to visualize the executive results:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th><a href="executive_report_ASEAN_NCAP_AHB.html">Executive Report</a></th>
+                    <th><a href="short_executive_report_ASEAN_NCAP_AHB.html">Executive Report (x < 30 m)</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Report containing an executive summary from all tests</td>
+                <td>Report containing an executive summary from all tests considering distances between 0 to 25 m</td>
+
+            </tbody>
+        </table>
+        <p>Click on the links in the table to visualize the test results:</p>
 
         <!-- Table with test names -->
         <table>
             <thead>
                 <tr>
-                    <th>Regulation</th>
-                    <th>Description</th>
+                    <th>Target type</th>
+                    <th>Test Scenario</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><strong><a href="UN_152_KINEMATICS/index_UN_152_KINEMATICS.html">UN152 and EuroNCAP Regulation</a></strong></td>
+                    <td><strong>Auto High Beam (AHB) for Bycicle</strong></td>
                     <td>
-                        <a>Kinematic Reports</a><br>
-                    </td>                    
-                </tr>     
-                <tr>
-                    <td><strong><a href="FP_kinematics/index_FP_kinematics.html">False-Positive (FP)</a></strong></td>
-                    <td>
-                        <a>Kinematic Reports on False-Positive tests</a><br>
-                    </td>
-                </tr> 
-                <tr>
-                    <td><strong><a href="PoC_Lidar_PG/index_PoC.html">PG PoC</a></strong></td>
-                    <td>
-                        <a>Proving Grounds Proof-of-Concept</a><br>
-                    </td>
-                </tr> 
-                <tr>
-                    <td><strong><a href="PoC_Lidar_OpenRoad/index_PoC_OpenRoad.html">Open Road PoC</a></strong></td>
-                    <td>
-                        <a>Open Road Proof-of-Concept</a><br>
-                    </td>
-                </tr> 
-                <tr>
-                    <td><strong><a href="ASEAN_NCAP_kinematics/index_ASEAN_NCAP.html">ASEAN NCAP kinematics</a></strong></td>
-                    <td>
-                        <a>ASEAN NCAP kinematics</a><br>
+                        <a href="AHB_bicycle_50_0.html">AHB Bycicle (ego 50 km/h)</a><br>
+                        <a href="AHB_bicycle_60_0.html">AHB Bycicle (ego 60 km/h)</a><br>
+                        <a href="AHB_bicycle_70_0.html">AHB Bycicle (ego 70 km/h)</a><br>
+                        <a href="AHB_bicycle_80_0.html">AHB Bycicle (ego 80 km/h)</a><br>
                     </td>
                 </tr>
                 <tr>
-                    <td><strong><a href="ASEAN_NCAP_lines/index_ASEAN_NCAP_lines.html">ASEAN NCAP lines</a></strong></td>
+                    <td><strong>Auto High Beam (AHB) for Car</strong></td>
                     <td>
-                        <a>ASEAN NCAP lines analysis</a><br>
+                        <a href="AHB_car_50_0.html">AHB Car (ego 50 km/h)</a><br>
+                        <a href="AHB_car_60_0.html">AHB Car (ego 50 km/h)</a><br>
+                        <a href="AHB_car_70_0.html">AHB Car (ego 50 km/h)</a><br>
+                        <a href="AHB_car_80_0.html">AHB Car (ego 50 km/h)</a><br>
+                        <a href="AHB_car_90_0.html">AHB Car (ego 50 km/h)</a><br>
+                        <a href="AHB_car_100_0.html">AHB Car (ego 50 km/h)</a><br>
                     </td>
-                </tr> 
-                <tr>
-                    <td><strong><a href="ASEAN_NCAP_AHB/index_ASEAN_NCAP_AHB.html">ASEAN NCAP AHB</a></strong></td>
-                    <td>
-                        <a>ASEAN NCAP Auto High Beam (AHB) analysis</a><br>
-                    </td>
-                </tr> 
+                </tr>
+                
+                
+                
             </tbody>
         </table>
+
+        <p>(*) The following tests are not available:</p>
+        <p>- AHB bycicle 100 km/h (Repetition 1 and repetition 2)</p>
+        <p>- AHB bycicle 80 km/h (Repetition 1)</p>
+        <p> Because there were not detections from the Autobrains system</p>
+
     </div>
 
 </body>
